@@ -39,8 +39,8 @@ nav .block_nav{
     align-items: center;
      position: absolute; 
     left: 1%; 
-    padding: 0px 5px;
-    width: 100%;
+    padding: 0px 5px 0px 30px;
+    width: 90%;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -725,7 +725,7 @@ footer{
         width: 100%;
     }
     .button_menu{
-        width: 13%;
+        width: 10%;
         display: block;
         text-align: right;
         border: 0;
