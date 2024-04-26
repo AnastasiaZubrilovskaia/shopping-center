@@ -710,6 +710,9 @@ footer{
 
 
 @media screen and (max-width: 768px) and (min-width: 320px){
+    header{
+        width: 100%;
+    }
     nav {
         display: none;
     }
@@ -770,11 +773,11 @@ footer{
         width: 30%;
     }
     .content_in{
-        width: 90%;
+        width: 100%;
     }
     .content{
-        width: 100%;
-        padding: 0 0 0 15%;
+        width: 90%;
+        padding: 0 0 0 9%;
         flex-grow: 1;
         display: flex;
         flex-direction: column;
@@ -818,18 +821,10 @@ footer{
         margin-top: 5%;
     }
     .button_01{
-        width: 34px;
-        height: 54px;
-    }
-    .button_01 div{
-        font-size: 28px;
-    }
-    .button_02 div{
-        font-size: 28px;
+        display: none;
     }
     .button_02{
-        width: 34px;
-        height: 54px;
+        display: none;
     }
     .container{
         flex-direction: column;
@@ -894,6 +889,7 @@ footer{
     .quote_text_block{
         width: 100%;
         margin-top: 10px;
+        padding-left: 0;
     }
     .quote_text_block_in{
         width: 100%;
@@ -972,23 +968,11 @@ footer{
     }
     
     .button_last_block_1{
-        width: 34px;
-        height: 54px;
-        top: 62%;
-    }
-    .button_last_block_1 div{
-        font-size: 28px;
+        display: none;
     }
     .button_last_block_2{
-        width: 34px;
-        height: 54px;
-        top: 62%;
+        display: none;
     }
-    
-    .button_last_block_2 div{
-        font-size: 28px;
-    }
-
     .footer_1{
         padding: 5% 10% 3% 10%;
     
